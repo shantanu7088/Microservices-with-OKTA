@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;HotelService&apos;&#x0D;&#x0A;- Original project: &apos;HotelService&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.hoterservice.controller.GlobalExceptionHandler.java&#x0D;&#x0A;     com.hoterservice.controller.ResourceNotFoundException.java" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hoterservice.controller{GlobalExceptionHandler.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hoterservice.controller{ResourceNotFoundException.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1707734503249" subPackages="false" version="1.0"/>
+</session>

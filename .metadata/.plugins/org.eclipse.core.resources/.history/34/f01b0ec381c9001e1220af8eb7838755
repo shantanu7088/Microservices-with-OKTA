@@ -1,0 +1,9 @@
+package com.userservice.entity;
+
+
+@Entity
+@Table(name="micro_users")
+public class User {
+	
+	
+}

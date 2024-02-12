@@ -1,0 +1,5 @@
+package com.ratingservice.repo;
+
+public interface RatingRepo {
+
+}

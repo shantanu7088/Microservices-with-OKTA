@@ -1,0 +1,36 @@
+package com.userservice.serviceimpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.userservice.entity.User;
+import com.userservice.repo.UserRepository;
+import com.userservice.service.UserService;
+
+public class UserServiceImpl implements UserService{
+	
+	
+	@Autowired
+	private UserRepository userrepo;	
+	
+
+	@Override
+	public User SaveUser(User user) {
+		
+		return userrepo.save(user);
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		
+		return userrepo.findAll();
+	}
+
+	@Override
+	public User getUser(String userid) {
+		
+		return userrepo.findById(userid);
+	}
+
+}

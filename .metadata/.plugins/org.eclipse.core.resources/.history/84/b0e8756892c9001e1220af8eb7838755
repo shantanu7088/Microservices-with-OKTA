@@ -1,0 +1,15 @@
+package com.hoterservice.entity;
+
+
+@Entity
+@Table(name="hotels")
+public class Hotel {
+	
+	
+	private String id;
+	private String name;
+	private String location;
+	private String about;
+	
+
+}

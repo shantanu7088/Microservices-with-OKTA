@@ -1,0 +1,15 @@
+package com.userservice.service;
+
+import com.userservice.entity.User;
+
+
+public interface UserService {
+	
+	
+	User SaveUser(User user);
+	
+	List<User> getAllUser();
+	
+	User getUser(String userid);	
+
+}

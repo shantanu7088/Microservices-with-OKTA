@@ -1,0 +1,10 @@
+package com.hoterservice.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.hoterservice.entity.Hotel;
+
+@Repository
+public interface HotelRepo extends JpaRepository<Hotel,String> {
+
+}

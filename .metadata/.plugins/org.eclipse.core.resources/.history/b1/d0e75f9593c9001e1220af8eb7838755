@@ -1,0 +1,8 @@
+package com.hoterservice.controller;
+
+
+@RestController
+@RequestMApping("/hotels")O
+public class HotelController {
+
+}

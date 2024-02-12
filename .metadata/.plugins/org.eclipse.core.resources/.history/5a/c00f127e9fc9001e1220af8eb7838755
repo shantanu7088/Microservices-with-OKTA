@@ -1,0 +1,21 @@
+package com.ratingservice.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="Rating")
+public class Rating {
+	
+	
+	private String id;
+	
+	private String userId;
+	private String hotelId;
+	private int rating;
+	
+	private String feedback;
+	
+	
+
+}
