@@ -1,0 +1,8 @@
+package com.userservice.config;
+
+
+
+@Configuration
+public class Configuration {
+
+}

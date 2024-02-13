@@ -1,0 +1,14 @@
+package com.userservice.external.services;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.userservice.entity.Hotel;
+
+@FeignClient(name="HOTEL-SERVICE")
+public interface HotelService {
+	
+	
+	@GetMapping("/hotels/{hoteid}")
+	public Hotel getHotel(@PathVariable String hotelid);
+
+}

@@ -1,0 +1,8 @@
+package com.userservice.external.services;
+
+
+
+@feignClient(name="HOTEL-SERVICE")
+public interface HotelService {
+
+}
